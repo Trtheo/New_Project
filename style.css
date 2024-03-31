@@ -1010,9 +1010,17 @@ display: flex;
 }
 
 }
+
+
 @media(max-width:477px){
   #header {
     padding: 10px 26px;
+}
+#page-header {
+  width: 95%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
 }
 h2{
   font-size: 32px;
@@ -1104,7 +1112,25 @@ button .normal{
 width: 100%;
 margin-bottom: 30px;
 }
+#contact-details {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 
+#contact-details {
+  flex-direction: column;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#form-details form input, 
+#form-details form textarea{
+  width: 300px;
+  
+}
 /* Cart Page */
 #cart-add{
   flex-direction: column;
